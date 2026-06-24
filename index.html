@@ -1,78 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Rifai - Portfolio</title>
+    <title>Portofolio Muhammad Rifai</title>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="main-container">
-        <section id="profile" class="section active">
+
+    <nav class="sidebar-nav">
+        <ul>
+            <li><a href="#profile" class="active" title="Profil"><i class="fas fa-user"></i></a></li>
+            <li><a href="#education" title="Pendidikan"><i class="fas fa-graduation-cap"></i></a></li>
+            <li><a href="#experience" title="Pengalaman"><i class="fas fa-briefcase"></i></a></li>
+            <li><a href="#projects" title="Proyek"><i class="fas fa-microchip"></i></a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        
+        <section id="profile" class="section">
             <div class="profile-container">
                 <div class="profile-image-container">
-                    <img src="images/profile.jpg" alt="Muhammad Rifai" class="profile-pic">
+                    <img id="profile-pic" src="" alt="Foto Muhammad Rifai">
+                    <br><br>
+                    <a href="docs/CV Rifai.pdf" class="download-btn" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
                 </div>
-                <div class="profile-text">
+                <div class="profile-info">
                     <h1 id="profile-name">Memuat Nama...</h1>
-                    <p id="profile-title" class="subtitle">Memuat Gelar...</p>
-                    <p id="profile-about" class="description">Memuat deskripsi profil...</p>
+                    <p class="profile-title">Electronics Engineering & Hardware Developer</p>
+                    <p id="profile-description">Memuat deskripsi profil...</p>
                     
-                    <div class="profile-info">
-                        <div class="info-item">
-                            <i class="fa-solid fa-envelope"></i>
-                            <span id="profile-email">m.rifai.gbs@gmail.com</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fa-solid fa-phone"></i>
-                            <span id="profile-phone">+62 823-2706-3194</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span id="profile-location">Kendal, Indonesia</span>
-                        </div>
+                    <div class="contact-grid">
+                        <div class="contact-item"><i class="fas fa-envelope"></i> <span id="profile-email">-</span></div>
+                        <div class="contact-item"><i class="fas fa-phone"></i> <span id="profile-phone">-</span></div>
+                        <div class="contact-item"><i class="fas fa-map-marker-alt"></i> <span id="profile-location">-</span></div>
                     </div>
 
-                    <div class="profile-actions" style="margin-top: 20px; display: flex; gap: 15px;">
-                        <a href="https://www.linkedin.com/in/muhammad-rifai-5a24bb37a" target="_blank" class="btn btn-secondary">
+                    <div class="social-links" style="margin-top: 15px; margin-bottom: 25px; display: flex; gap: 15px;">
+                        <a href="https://www.linkedin.com/in/muhammad-rifai-5a24bb37a" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #1e293b; color: #00f2fe; text-decoration: none; border: 1px solid #00f2fe; border-radius: 20px; font-size: 0.95rem; transition: 0.3s;">
                             <i class="fa-brands fa-linkedin"></i> LinkedIn
                         </a>
-                        <a href="https://github.com/mrifaigbs-alt" target="_blank" class="btn btn-secondary">
+                        <a href="https://github.com/mrifaigbs-alt" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #1e293b; color: #00f2fe; text-decoration: none; border: 1px solid #00f2fe; border-radius: 20px; font-size: 0.95rem; transition: 0.3s;">
                             <i class="fa-brands fa-github"></i> GitHub
                         </a>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <section id="about" class="section">
-            <h2><i class="fa-solid fa-user"></i> Tentang Saya</h2>
-            <div class="skills-container">
-                <h3><i class="fa-solid fa-brain"></i> Keahlian Utama</h3>
-                <div id="skills-list" class="skills-grid">
+                    <div class="skills-container">
+                        <h3><i class="fas fa-brain" style="color: #00f2fe; margin-right: 10px;"></i>Keahlian Utama</h3>
+                        <div id="skills-grid" class="skills-grid">
+                            </div>
                     </div>
+                </div>
             </div>
         </section>
 
         <section id="education" class="section">
-            <h2><i class="fa-solid fa-graduation-cap"></i> Pendidikan</h2>
-            <div id="education-list" class="timeline">
+            <h2>Riwayat Pendidikan</h2>
+            <div id="education-list" class="education-list">
                 </div>
         </section>
 
         <section id="experience" class="section">
-            <h2><i class="fa-solid fa-briefcase"></i> Pengalaman</h2>
-            <div id="experience-list" class="timeline">
+            <h2>Pengalaman Kerja & Magang</h2>
+            <div id="experience-list" class="experience-list">
                 </div>
         </section>
 
         <section id="projects" class="section">
-            <h2><i class="fa-solid fa-code"></i> Proyek</h2>
-            <div id="projects-grid" class="projects-grid">
+            <h2>Proyek Elektronika & IoT</h2>
+            <div id="projects-grid" class="education-list">
                 </div>
         </section>
-    </div>
+
+        <footer>
+            <p>&copy; <span id="current-year"></span> Muhammad Rifai. All Rights Reserved.</p>
+        </footer>
+
+    </main>
 
     <script src="script.js"></script>
 </body>
