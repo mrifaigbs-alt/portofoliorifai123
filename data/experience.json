@@ -1,0 +1,16 @@
+[
+    {
+        "company": "CV Hartono Audio Authorized",
+        "logo": "images/hartono-logo.png",
+        "position": "Repair and Maintenance Department (Internship)",
+        "year": "2025",
+        "description": "Melakukan troubleshooting dan perbaikan komponen pada amplifier Yamaha dan instrumen musik elektronik. Menganalisis kerusakan sirkuit serta melakukan penggantian suku cadang secara presisi."
+    },
+    {
+        "company": "PT. Panasonic Gobel",
+        "logo": "images/panasonic-logo.png",
+        "position": "Production Operator - Lane Urethane (Internship)",
+        "year": "2022",
+        "description": "Mengoperasikan mesin manufaktur pada lini produksi isolasi bodi kulkas. Menerapkan standar keselamatan kerja (K3) dan budaya kerja industri (5S) di area produksi."
+    }
+]

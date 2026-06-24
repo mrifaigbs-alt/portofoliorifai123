@@ -1,0 +1,16 @@
+[
+    {
+        "university": "Semarang State Polytechnic (POLINES)",
+        "logo": "images/polines-logo.png",
+        "major": "Diploma 3 in Electronics Engineering",
+        "year": "2023 - 2026",
+        "description": "Fokus pada pengembangan sistem kendali, mikroelektronika, dan Internet of Things (IoT). Aktif mempelajari siklus pengembangan proyek teknik dari simulasi hingga implementasi fisik di lapangan."
+    },
+    {
+        "university": "State Vocational School 2 Kendal (SMKN 2 Kendal)",
+        "logo": "images/smk-logo.png",
+        "major": "Refrigeration and Air Conditioning Engineering",
+        "year": "2020 - 2023",
+        "description": "Mempelajari dasar-dasar teknik pendingin, tata udara, kelistrikan dasar, serta melakukan perawatan sistem mekanik dan elektronik."
+    }
+]

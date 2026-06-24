@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Kotak Amal Berbasis IoT",
+        "year": "2024",
+        "role": "IoT Developer",
+        "description": "Pengembangan sistem kotak amal cerdas berbasis Internet of Things (IoT). Sistem ini dirancang untuk memudahkan pemantauan, pelaporan data secara real-time, serta meningkatkan keamanan menggunakan mikrokontroler dan modul sensor yang terhubung ke internet.",
+        "image": "images/project-kotak-amal.jpg",
+        "link": "#"
+    },
+    {
+        "title": "Implementasi Kontrol PID pada Self-Balancing Robot",
+        "year": "2023",
+        "role": "Control System Engineer",
+        "description": "Merancang dan membangun robot roda dua yang mampu menyeimbangkan dirinya sendiri secara otomatis. Proyek ini menggunakan sensor MPU6050 (gyroscope & accelerometer) berbasis Arduino Uno, dengan menerapkan algoritma kontrol presisi PID (Proportional-Integral-Derivative) untuk menjaga stabilitas robot.",
+        "image": "images/project-robot.jpg",
+        "link": "#"
+    },
+    {
+        "title": "Sistem Monitoring dengan MATLAB GUI, Sensor MQ & Arduino",
+        "year": "2023",
+        "role": "Hardware & Software Programmer",
+        "description": "Membangun sistem pemantauan deteksi gas/kualitas udara secara real-time. Proyek ini mengintegrasikan pembacaan sensor gas (MQ series) melalui Arduino, yang kemudian datanya dikirim, divisualisasikan, dan dianalisis melalui antarmuka grafis (GUI) interaktif menggunakan MATLAB.",
+        "image": "images/project-matlab.jpg",
+        "link": "#"
+    }
+]

@@ -1,0 +1,30 @@
+{
+    "name": "Muhammad Rifai",
+    "description": "An Electronic Engineering student focusing on IoT and control systems. Experienced in integrating various sensors and microcontrollers through precision software development. Possesses a deep understanding of the engineering project development cycle, from simulation to physical implementation in the field.",
+    "profileImage": "images/profile.jpg",
+    "email": "m.rifai.gbs@gmail.com",
+    "phone": "+62 823-2706-3194",
+    "location": "Kendal, Indonesia",
+    "socialMedia": [
+        {
+            "platform": "LinkedIn",
+            "url": "https://linkedin.com"
+        },
+        {
+            "platform": "GitHub",
+            "url": "https://github.com"
+        }
+    ],
+    "cv": {
+        "text": "Download CV",
+        "file": "docs/CV Rifai.pdf",
+        "icon": "fas fa-file-pdf"
+    },
+    "skills": [
+        {"name": "Troubleshooting Electronic Circuits", "icon": "fas fa-tools", "level": 90},
+        {"name": "Reading Schematic Diagrams", "icon": "fas fa-project-diagram", "level": 85},
+        {"name": "Electronic Measuring Instruments", "icon": "fas fa-wave-square", "level": 85},
+        {"name": "IoT & Control Systems", "icon": "fas fa-microchip", "level": 80},
+        {"name": "Teamwork & Communication", "icon": "fas fa-users", "level": 90}
+    ]
+}
