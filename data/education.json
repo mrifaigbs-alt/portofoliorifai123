@@ -1,14 +1,16 @@
 [
-  {
-    "school": "<div style='text-align: center; margin-bottom: 15px;'><img src='images/logo-polines.png' style='width: 90px; filter: drop-shadow(0 0 8px rgba(0, 242, 254, 0.4));'></div>Semarang State Polytechnic (POLINES)",
-    "degree": "Diploma 3 in Electronics Engineering",
-    "year": "2023 - 2026",
-    "description": "Fokus pada pengembangan sistem kendali, mikroelektronika, dan Internet of Things (IoT). Aktif mempelajari siklus pengembangan proyek teknik dari simulasi hingga implementasi fisik di lapangan."
-  },
-  {
-    "school": "<div style='text-align: center; margin-bottom: 15px;'><img src='images/logo-smk.png' style='width: 80px; filter: drop-shadow(0 0 8px rgba(0, 242, 254, 0.4));'></div>State Vocational School 2 Kendal (SMKN 2 Kendal)",
-    "degree": "Refrigeration and Air Conditioning Engineering",
-    "year": "2020 - 2023",
-    "description": "Mempelajari dasar-dasar teknik pendingin, tata udara, kelistrikan dasar, serta melakukan perawatan sistem mekanik dan elektronik."
-  }
+    {
+        "university": "<div style='text-align: center; margin-bottom: 15px;'><img src='images/polines-logo.png' style='width: 90px; filter: drop-shadow(0 0 8px rgba(0, 242, 254, 0.4));'></div>Semarang State Polytechnic (POLINES)",
+        "logo": "images/polines-logo.png",
+        "major": "Diploma 3 in Electronics Engineering",
+        "year": "2023 - 2026",
+        "description": "Fokus pada pengembangan sistem kendali, mikroelektronika, dan Internet of Things (IoT). Aktif mempelajari siklus pengembangan proyek teknik dari simulasi hingga implementasi fisik di lapangan."
+    },
+    {
+        "university": "<div style='text-align: center; margin-bottom: 15px;'><img src='images/smk-logo.png' style='width: 80px; filter: drop-shadow(0 0 8px rgba(0, 242, 254, 0.4));'></div>State Vocational School 2 Kendal (SMKN 2 Kendal)",
+        "logo": "images/smk-logo.png",
+        "major": "Refrigeration and Air Conditioning Engineering",
+        "year": "2020 - 2023",
+        "description": "Mempelajari dasar-dasar teknik pendingin, tata udara, kelistrikan dasar, serta melakukan perawatan sistem mekanik dan elektronik."
+    }
 ]
